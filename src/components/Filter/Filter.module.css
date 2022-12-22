@@ -1,0 +1,33 @@
+.filterBlock{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.input_group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div_input{
+    width: 80%;
+    padding: 0 1rem ;
+}
+.filter_field {
+    display: block;
+    width: 100%;
+    /* padding: 8px 16px; */
+    /* margin: 0px 8px; */
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    color: #99A3BA;
+    border: 1px solid #CDD9ED;
+    background: #fff;
+    transition: border 0.3s ease;
+  }
+  .filter_button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }

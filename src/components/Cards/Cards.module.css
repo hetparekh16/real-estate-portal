@@ -1,0 +1,7 @@
+.card_grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* margin-left: 0; */
+    background-color: #fff;
+    /* margin-right: 0; */
+}

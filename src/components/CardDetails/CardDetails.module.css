@@ -1,0 +1,55 @@
+.card_details{
+    margin: 2rem auto;
+    width: 23rem
+}
+.icon_data{
+    display: flex;
+   
+}
+.icon_data > div{
+    margin-right: 0.8rem;
+}
+.bed_area ,  .bath_area , .floor_area {
+    display: flex; 
+    align-items: center; 
+    
+}
+.bed_area::before  {
+    content: url(../../img/bed.png);
+    display: inline-block;
+    font-size: smaller;
+    font-weight: 900; 
+    margin-top: 0.5em;
+    margin-right: 1em;
+    width: 1em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.bath_area::before {
+    content: url(../../img/bathtub.png);
+    display: inline-block;
+    font-size: smaller;
+    font-weight: 900; 
+    margin-top: 0.5em;
+    margin-right: 1em;
+    width: 1em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.floor_area::before{
+    content: url(../../img/tiles.png);
+    display: inline-block;
+    font-size: smaller;
+    font-weight: 900; 
+    margin-top: 0.5em;
+    margin-right: 1em;
+    width: 1em;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
